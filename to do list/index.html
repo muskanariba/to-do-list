@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container text-center mt-5 mb-3">
+        <h2 class="fs-1">"To-Do List"</h2>
+        <input class="col-5" id="taskInput" placeholder="Add task here...">
+        <button onclick="addTask()" class="btn">Add</button>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-6">
+            <ul id="taskList" class="list-group text-aligns-center"></ul>
+        </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
